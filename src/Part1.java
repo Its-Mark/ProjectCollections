@@ -1,5 +1,11 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+/**
+ * Project Collections (Part 1)
+ * @author Mark Garcia 018019103
+ *         mark.garcia01@student.csulb.edu
+ * @author Brandon Wiitanen
+ *         brandon.wiitanen01@student.csulb.edu
+ */
+
 import java.util.TreeMap;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -7,6 +13,12 @@ import java.io.File;
 import java.io.FileNotFoundException;
 
 public class Part1 {
+    /**
+     * This method takes in 1 argument through the command line to determine whether it will run as a TreeMap or a HashMap
+     * Reads ScabblePointSystem.txt and adds the Letter and Point Value of each letter to a HashMap
+     * Reads QWords.txt and adds the word and its points value to a Map
+     * @param args = either "TREE" or "HASH" anything else will not run the program
+     */
     public static void main(String[] args) {
         //initialize variables to be used
         Scanner qWordsScanner;
@@ -21,13 +33,12 @@ public class Part1 {
             Scanner QWScanner = new Scanner(qWords);
             Scanner SPSScanner = new Scanner(SPS);
             HashMap<Character, Integer> pointMap = new HashMap<>();
-
+            start = System.nanoTime();
             while(SPSScanner.hasNext()){
                 pointMap.put(SPSScanner.next().charAt(0), SPSScanner.nextInt());
             }
 
             if (args[0].compareToIgnoreCase("hash") == 0) {
-                start = System.currentTimeMillis();
                 HashMap<String, Integer> qWordMap = new HashMap<>();
                 while(QWScanner.hasNext()){
                     String temp = QWScanner.next();
@@ -39,10 +50,9 @@ public class Part1 {
                     qWordMap.put(temp,sum);
                 }
                 System.out.println(qWordMap.toString());
-                end = System.currentTimeMillis();
-                System.out.println("Time for operation: " + (end - start));
+                end = System.nanoTime();
+                System.out.println("Time for operation (nanoseconds): " + (end - start));
             } else if (args[0].compareToIgnoreCase("tree") == 0) {
-                start = System.currentTimeMillis();
                 TreeMap<String, Integer> tmap = new TreeMap<>();
                 while(QWScanner.hasNext()){
                     String temp = QWScanner.next();
@@ -54,8 +64,8 @@ public class Part1 {
                     tmap.put(temp,sum);
                 }
                 System.out.println(tmap.toString());
-                end = System.currentTimeMillis();
-                System.out.println("Time for operation: " + (end - start));
+                end = System.nanoTime();
+                System.out.println("Time for operation (nanoseconds): " + (end - start));
             }
         } catch (FileNotFoundException fnfe) {
             fnfe.printStackTrace();
