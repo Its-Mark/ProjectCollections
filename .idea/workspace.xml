@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8287cf91-a245-46b1-baa3-1b7b1e530ade" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ScrabblePointSystem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tester.java" beforeDir="false" />
-    </list>
+    <list default="true" id="8287cf91-a245-46b1-baa3-1b7b1e530ade" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +28,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../CECS 274/GitHubLabs/tree-traversals-hw4-justin-mark" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectFileIO" />
     <property name="settings.editor.selected.configurable" value="profiler.jvm" />
   </component>
   <component name="RunManager">
@@ -76,6 +70,7 @@
       <updated>1586199748201</updated>
       <workItem from="1586199751373" duration="688000" />
       <workItem from="1586201147430" duration="6571000" />
+      <workItem from="1586208386553" duration="20000" />
     </task>
     <servers />
   </component>
@@ -91,10 +86,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="324" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586201591304" />
-    <state x="465" y="191" key="FileChooserDialogImpl" timestamp="1586200214912">
+    <state x="465" y="191" key="FileChooserDialogImpl" timestamp="1586208404499">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="465" y="191" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1586200214912" />
+    <state x="465" y="191" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1586208404499" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586207485642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -111,10 +106,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586207485641" />
-    <state x="533" y="310" key="com.intellij.ide.util.TipDialog" timestamp="1586201147642">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="380" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1586208387728">
+      <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="380" y="260" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1586199762478" />
+    <state x="380" y="260" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1586208387728" />
     <state x="533" y="310" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586201147642" />
   </component>
 </project>
