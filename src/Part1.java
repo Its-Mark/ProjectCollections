@@ -18,6 +18,7 @@ public class Part1 {
      * Reads ScabblePointSystem.txt and adds the Letter and Point Value of each letter to a HashMap
      * Reads QWords.txt and adds the word and its points value to a Map
      * @param args = either "TREE" or "HASH" anything else will not run the program
+     * ANALYSIS OF RUNTIME: Using a HashMap is more efficient than using a TreeMap in this scenario
      */
     public static void main(String[] args) {
         //initialize variables to be used
