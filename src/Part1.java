@@ -2,7 +2,7 @@
  * Project Collections (Part 1)
  * @author Mark Garcia 018019103
  *         mark.garcia01@student.csulb.edu
- * @author Brandon Wiitanen
+ * @author Brandon Wiitanen 018502846
  *         brandon.wiitanen01@student.csulb.edu
  */
 
