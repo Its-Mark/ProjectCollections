@@ -19,6 +19,8 @@ public class Part1 {
      * Reads QWords.txt and adds the word and its points value to a Map
      * @param args = either "TREE" or "HASH" anything else will not run the program
      * ANALYSIS OF RUNTIME: Using a HashMap is more efficient than using a TreeMap in this scenario
+     * Time for operation using HashMap (nanoseconds): 7494000
+     * Time for operation using TreeMap (nanoseconds): 8922500
      */
     public static void main(String[] args) {
         //initialize variables to be used
